@@ -1,2 +1,2 @@
-# CryTest
+# JS
 a js playground
