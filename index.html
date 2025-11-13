@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Home - Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="index.html">Your Name</a></h1>
+      <nav class="site-nav" id="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 class="hero-title">Hello — I’m <span id="name-placeholder"></span></h2>
+      <p class="hero-sub">A short tagline or professional subtitle goes here.</p>
+      <div class="tabs" role="tablist" aria-label="Quick links">
+        <button class="tab" data-target="about.html">About</button>
+        <button class="tab" data-target="resume.html">Resume</button>
+        <button class="tab" data-target="projects.html">Projects</button>
+        <button class="tab" data-target="contact.html">Contact</button>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h3>Experience</h3>
+        <p class="empty-field">[Your most recent role — company, title, dates]</p>
+      </article>
+
+      <article class="card">
+        <h3>Skills</h3>
+        <p class="empty-field">[List of skills — e.g., Python, SQL, ETL...]</p>
+      </article>
+
+      <article class="card">
+        <h3>Education</h3>
+        <p class="empty-field">[Degree, Institution, Year]</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Your Name — Built with GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

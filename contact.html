@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - Resume</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title"><a href="index.html">Your Name</a></h1>
+      <nav class="site-nav" id="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contact</h2>
+    <p class="empty-field">[Your preferred contact method — email, LinkedIn, etc.]</p>
+
+    <form class="contact-form" onsubmit="return false;">
+      <label>
+        Name
+        <input type="text" name="name" placeholder="[Your name]" value="">
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" placeholder="[you@example.com]" value="">
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" placeholder="[Type a short message]"></textarea>
+      </label>
+
+      <button type="submit" disabled>Send (disabled - no backend)</button>
+    </form>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year5"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
