@@ -32,5 +32,5 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // Placeholder name
   const nameEl = document.getElementById('name-placeholder');
-  if(nameEl) nameEl.textContent = 'Saagar D';
+  if(nameEl) { nameEl.textContent = 'Saagar D'; }
 });
